@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+DATEADD(S, ${1:UTCTIME}, '1970-01-01 00:00:00')
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>utctime</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+</snippet>
